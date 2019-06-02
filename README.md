@@ -2,7 +2,14 @@
 
 # Web Pages Navigation Application
 
-This application uses routing to navigate through webpages.
+This Angular 7 application is used to fetch data from github APIs. This data is being resprented in form of tables, cards and lists items.
+
+# Features
+
+- Angular routing to navigate through different layouts.
+- Bootstrap 4 for layouts.
+- http services to fetch data from APIs.
+
 # Installation
 
 A. OFFLINE
@@ -26,3 +33,4 @@ A. OFFLINE
 
 
 # Architectural Diagram 
+![alt text](https://github.com/Karan980/Jungleworks/blob/master/Screenshot%20(21).png)
