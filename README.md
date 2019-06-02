@@ -1,18 +1,17 @@
 # Jungle-Works-Assignment
 
-# Web Pages Navigation Application
+## Web Pages Navigation Application
 
-This Angular 7 application is used to fetch data from github APIs. This data is being resprented in form of tables, cards and lists items.
+This Angular 7 application is used to fetch data from github APIs. This data is being resprented in form of tables, cards and list items.
 
-# Features
+## Features
 
 - Angular routing to navigate through different layouts.
 - Bootstrap 4 for layouts.
 - http services to fetch data from APIs.
 
-# Installation
+## Installation
 
-A. OFFLINE
 1. Install latest  version of nodejs.
 [Download Nodejs](https://nodejs.org/en/)
 
@@ -32,5 +31,10 @@ A. OFFLINE
    ```
 
 
-# Architectural Diagram 
+## Architectural Diagram 
 ![alt text](https://github.com/Karan980/Jungleworks/blob/master/Screenshot%20(21).png)
+
+## References
+1. https://www.youtube.com/watch?v=k5E2AVpwsko&t=828s
+2. https://getbootstrap.com/
+3. https://angular.io/tutorial
