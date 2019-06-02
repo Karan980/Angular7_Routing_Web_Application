@@ -1,0 +1,26 @@
+<div class="list-group  " >
+  
+  <button type="button" class="list-group-item list-group-item-action text-white bg-danger" >
+    <div class="row">
+	<div class="col"><span class="text text-left ">REPO ID</span></div>
+  <div class="col"><span class="text text-center ">FULL NAME</span></div>
+  <div class="col">   <span class="text text-right ">NODE ID</span> </div>
+</div>
+
+  </button>
+ 
+  
+</div>
+<div class="list-group mt-3" *ngFor="let repo of repos">
+  
+  <button type="button" class="list-group-item list-group-item-action " >
+    <div class="row">
+	<div class="col"><span class="text text-left text-primary">{{repo.id}}</span></div>
+  <div class="col"><span class="text text-center text-danger">{{repo.full_name}}</span></div>
+  <div class="col">   <span class="text text-right text-info">{{repo.node_id}}</span> </div>
+</div>
+
+  </button>
+ 
+  
+</div>

@@ -1,0 +1,16 @@
+<ul class="list-unstyled">
+  <nav class="navbar primary ">
+ 
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search Name" name='search ' [(ngModel)]="searchText" aria-label="Search">
+  </form>
+</nav>
+  <li class="media m-4 shadow bg-light" *ngFor='let user of users | filter: {login: searchText}; let i=index;'>  
+    <img src={{user.avatar_url}} class="img-thumbnail m-1 shadow-sm img img-responsive" alt="...">
+    <div class="media-body">
+     
+      <app-user-data [url]='user.url'></app-user-data>
+    </div>
+  </li>
+ 
+</ul>

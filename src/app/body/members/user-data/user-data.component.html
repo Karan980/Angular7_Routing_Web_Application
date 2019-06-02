@@ -1,0 +1,25 @@
+
+   <div class="card bg-secondary  rounded-0 text-white" *ngIf='userData'>
+  <div class="card-header font-weight-bolder" >
+   {{userData.login}}
+  </div>
+  <div class="input-group  mt-2 p-2">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">ID</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value={{userData.id}}
+  disabled>
+</div>
+  <div class="input-group mt-1 p-2" *ngIf='userData && userData.name'>
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value={{userData.name}} disabled>
+</div>
+ <div class="input-group mt-1 p-2" *ngIf='userData && userData.company'>
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">company</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value={{userData.company}}  disabled>
+</div>
+</div>
