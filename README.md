@@ -1,5 +1,3 @@
-# Jungle-Works-Assignment
-
 ## Web Pages Navigation Application
 
 This Angular 7 application is used to fetch data from github APIs. This data is being resprented in form of tables, cards and list items.
